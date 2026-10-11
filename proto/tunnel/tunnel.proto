@@ -24,7 +24,7 @@ syntax = "proto3";
 // TCP proxy between a pair of gRPC client and server endpoints.
 package grpctunnel;
 
-option go_package = "proto/tunnel;grpctunnel";
+option go_package = "github.com/openconfig/grpctunnel/proto/tunnel;grpctunnel";
 
 service Tunnel {
   // Register is used to register targets reachable via either the client

@@ -20,7 +20,7 @@ syntax = "proto3";
 
 package targetconfig;
 
-option go_package = "github.com/openconfig/grpctunnel/cmd/target/proto/targetconfig";
+option go_package = "github.com/openconfig/grpctunnel/cmd/target/proto/config;targetconfig";
 
 message TLS {
   // If both cert_file and key_file are provided, then mTLS will be used. 
